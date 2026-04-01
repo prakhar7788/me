@@ -22,7 +22,7 @@ export function Projects() {
         "AI-powered model for detecting plant diseases from images.",
       tags: ["tensorFlow", "Python", "yolov5"],
       gradient: "from-purple-400 to-purple-600",
-      githubUrl: "https://github.com/yourusername/plant-disease-detection",
+      githubUrl: "https://github.com/prakhar7788/plant-disease-detection-ai-model",
       liveUrl: "",
     },
     {
@@ -31,7 +31,7 @@ export function Projects() {
         "Beautiful weather application with interactive maps and detailed forecasts.",
     tags: ["Shell Script", "GoBuster", "Amass"],
       gradient: "from-cyan-400 to-cyan-600",
-      githubUrl: "https://github.com/yourusername/subdomain-enumeration",
+      githubUrl: "https://github.com/prakhar7788/subdomain-enum-tool",
       liveUrl: "",
     },
     {
@@ -40,7 +40,7 @@ export function Projects() {
         "Comprehensive online learning platform with interactive courses and community features.",
       tags: ["React", "Tailwind", "Motion"],
       gradient: "from-pink-400 to-pink-600",
-      githubUrl: "https://github.com/yourusername/edugap",
+      githubUrl: "https://github.com/prakhar7788/edugap",
       liveUrl: "",
     },
     {
@@ -49,7 +49,7 @@ export function Projects() {
         "Fun and addictive clone of the Chrome Dino game, built with Python.",
       tags: ["pygame"],
       gradient: "from-orange-400 to-orange-600",
-      githubUrl: "https://github.com/yourusername/dino-game-clone",
+      githubUrl: "https://github.com/prakhar7788/dinogame",
       liveUrl: "",
     },
     {
@@ -58,7 +58,7 @@ export function Projects() {
         "Comprehensive management system for organizing and tracking arcade games and tournaments.",
       tags: ["MySql-Connector for python"],
       gradient: "from-green-400 to-green-600",
-      githubUrl: "https://github.com/yourusername/arcade-management",
+      githubUrl: "https://github.com/prakhar7788/arcade-management-system-",
       liveUrl: "",
     },
   ];
