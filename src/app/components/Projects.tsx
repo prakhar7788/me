@@ -13,7 +13,7 @@ export function Projects() {
       tags: ["React", "Node.js", "sqlite"],
       
       gradient: "from-blue-400 to-blue-600",
-      githubUrl: "https://github.com/yourusername/crypto-portfolio-tracker",
+      githubUrl: "https://github.com/prakhar7788/crypto_project_tracker",
       liveUrl: "", // Optional: add live demo URL if available
     },
     {
