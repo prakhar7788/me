@@ -12,6 +12,8 @@ export function Projects() {
         "Real-time cryptocurrency portfolio tracker with price alerts and reminders.",
       tags: ["React", "Node.js", "sqlite"],
       gradient: "from-blue-400 to-blue-600",
+      githubUrl: "https://github.com/yourusername/crypto-portfolio-tracker",
+      liveUrl: "", // Optional: add live demo URL if available
     },
     {
       title: "Plant disease detection ai Model",
@@ -19,6 +21,8 @@ export function Projects() {
         "AI-powered model for detecting plant diseases from images.",
       tags: ["tensorFlow", "Python", "yolov5"],
       gradient: "from-purple-400 to-purple-600",
+      githubUrl: "https://github.com/yourusername/plant-disease-detection",
+      liveUrl: "",
     },
     {
       title: "tool for Subdomain Enumeration",
@@ -26,6 +30,8 @@ export function Projects() {
         "Beautiful weather application with interactive maps and detailed forecasts.",
     tags: ["Shell Script", "GoBuster", "Amass"],
       gradient: "from-cyan-400 to-cyan-600",
+      githubUrl: "https://github.com/yourusername/subdomain-enumeration",
+      liveUrl: "",
     },
     {
       title: "EduGap - Online Learning Platform",
@@ -33,6 +39,8 @@ export function Projects() {
         "Comprehensive online learning platform with interactive courses and community features.",
       tags: ["React", "Tailwind", "Motion"],
       gradient: "from-pink-400 to-pink-600",
+      githubUrl: "https://github.com/yourusername/edugap",
+      liveUrl: "",
     },
     {
       title: "Dino Game Clone",
@@ -40,6 +48,8 @@ export function Projects() {
         "Fun and addictive clone of the Chrome Dino game, built with Python.",
       tags: ["pygame"],
       gradient: "from-orange-400 to-orange-600",
+      githubUrl: "https://github.com/yourusername/dino-game-clone",
+      liveUrl: "",
     },
     {
       title: "Arcade Management System",
@@ -47,6 +57,8 @@ export function Projects() {
         "Comprehensive management system for organizing and tracking arcade games and tournaments.",
       tags: ["MySql-Connector for python"],
       gradient: "from-green-400 to-green-600",
+      githubUrl: "https://github.com/yourusername/arcade-management",
+      liveUrl: "",
     },
   ];
 
@@ -85,7 +97,9 @@ export function Projects() {
                     className="absolute inset-0 bg-black/50 flex items-center justify-center gap-4"
                   >
                     <motion.a
-                      href="#"
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9 }}
                       className="p-3 bg-white rounded-full"
@@ -93,15 +107,19 @@ export function Projects() {
                     >
                       <Github size={20} />
                     </motion.a>
-                    <motion.a
-                      href="#"
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
-                      className="p-3 bg-white rounded-full"
-                      aria-label="View live demo"
-                    >
-                      <ExternalLink size={20} />
-                    </motion.a>
+                    {project.liveUrl && (
+                      <motion.a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                        className="p-3 bg-white rounded-full"
+                        aria-label="View live demo"
+                      >
+                        <ExternalLink size={20} />
+                      </motion.a>
+                    )}
                   </motion.div>
                 </motion.div>
 
