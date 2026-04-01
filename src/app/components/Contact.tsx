@@ -27,9 +27,9 @@ export function Contact() {
   };
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "hello@example.com" },
-    { icon: Phone, label: "Phone", value: "+1 (555) 123-4567" },
-    { icon: MapPin, label: "Location", value: "San Francisco, CA" },
+    { icon: Mail, label: "Email", value: "prakhar.tyagi.ug24@iilm.edu" },
+    { icon: Phone, label: "Phone", value: "9310144453" },
+    { icon: MapPin, label: "Location", value: "New Delhi" },
   ];
 
   return (
