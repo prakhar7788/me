@@ -11,6 +11,7 @@ export function Projects() {
       description:
         "Real-time cryptocurrency portfolio tracker with price alerts and reminders.",
       tags: ["React", "Node.js", "sqlite"],
+      github:https://github.com/prakhar7788/crypto_project_tracker
       gradient: "from-blue-400 to-blue-600",
     },
     {
