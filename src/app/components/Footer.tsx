@@ -12,13 +12,8 @@ export function Footer() {
           viewport={{ once: true }}
           className="text-center"
         >
-          <p className="text-sm text-gray-400 flex items-center justify-center gap-2">
-            Made with <Heart size={16} className="text-red-500 fill-red-500" /> in
-            {new Date().getFullYear()}
-          </p>
-          <p className="text-xs text-gray-500 mt-2">
-            © {new Date().getFullYear()} All rights reserved.
-          </p>
+          
+          
         </motion.div>
       </div>
     </footer>
