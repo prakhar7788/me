@@ -70,7 +70,7 @@ export function About() {
                 className="aspect-square bg-gradient-to-br from-blue-100 to-purple-100 rounded-3xl overflow-hidden shadow-lg"
               >
                 <img 
-                  src="/profile.jpg" 
+                  src="/ww.jpeg" 
                   alt="Prakhar Tyagi" 
                   className="w-full h-full object-cover"
                 />
