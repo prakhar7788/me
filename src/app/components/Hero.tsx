@@ -115,13 +115,15 @@ export function Hero() {
             className="flex gap-6 justify-center mt-12"
           >
             {[
-              { icon: Github, label: "GitHub" },
-              { icon: Linkedin, label: "LinkedIn" },
-              { icon: Mail, label: "Email" },
+              { icon: Github, label: "GitHub", href: "https://github.com/prakhar7788" },
+              { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/prakhar-tyagi-4825a9330/" },
+              { icon: Mail, label: "Email", href: "mailto:prakhar.tyagi.ug24@iilm.edu" },
             ].map((social, index) => (
               <motion.a
                 key={social.label}
-                href="#"
+                href={social.href}
+                target={social.label === "Email" ? undefined : "_blank"}
+                rel={social.label === "Email" ? undefined : "noopener noreferrer"}
                 whileHover={{ scale: 1.2, rotate: 5 }}
                 whileTap={{ scale: 0.9 }}
                 initial={{ opacity: 0, y: 20 }}

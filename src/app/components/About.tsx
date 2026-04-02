@@ -68,11 +68,13 @@ export function About() {
                   repeat: Infinity,
                   ease: "easeInOut",
                 }}
-                className="aspect-square bg-gradient-to-br from-blue-100 to-purple-100 rounded-3xl overflow-hidden"
+                className="aspect-square bg-gradient-to-br from-blue-100 to-purple-100 rounded-3xl overflow-hidden shadow-lg"
               >
-                <div className="w-full h-full flex items-center justify-center text-6xl text-gray-300">
-                  👨‍💻
-                </div>
+                <img 
+                  src="/profile.jpg" 
+                  alt="Prakhar Tyagi" 
+                  className="w-full h-full object-cover"
+                />
               </motion.div>
               <motion.div
                 animate={{
