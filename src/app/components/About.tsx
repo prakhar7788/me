@@ -21,10 +21,9 @@ export function About() {
               className="space-y-6"
             >
               <p className="text-lg text-gray-600 leading-relaxed">
-                I'm a passionate developer with a love for creating elegant
-                solutions to complex problems. With expertise in modern web
-                technologies, I bring ideas to life through clean code and
-                thoughtful design.
+                Hi, I’m Prakhar ,a passionate and curious individual who enjoys learning new technologies and building creative solutions.
+                 I believe in continuous growth and love turning ideas into real-world projects.
+                 I’m always eager to explore, improve, and take on new challenges
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
                 When I'm not coding, you can find me exploring new technologies,
