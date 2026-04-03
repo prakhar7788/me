@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, Wallet, Leaf, Shield, GraduationCap, Gamepad2, Trophy } from "lucide-react";
 import { useInView } from "./hooks/useInView";
 
 export function Projects() {
@@ -11,7 +11,7 @@ export function Projects() {
       description:
         "Real-time cryptocurrency portfolio tracker with price alerts and reminders.",
       tags: ["React", "Node.js", "sqlite"],
-      
+      icon: Wallet,
       gradient: "from-blue-400 to-blue-600",
       githubUrl: "https://github.com/prakhar7788/crypto_project_tracker",
       liveUrl: "", // Optional: add live demo URL if available
@@ -21,6 +21,7 @@ export function Projects() {
       description:
         "AI-powered model for detecting plant diseases from images.",
       tags: ["tensorFlow", "Python", "yolov5"],
+      icon: Leaf,
       gradient: "from-purple-400 to-purple-600",
       githubUrl: "https://github.com/prakhar7788/plant-disease-detection-ai-model",
       liveUrl: "",
@@ -30,6 +31,7 @@ export function Projects() {
       description:
         "Beautiful weather application with interactive maps and detailed forecasts.",
     tags: ["Shell Script", "GoBuster", "Amass"],
+      icon: Shield,
       gradient: "from-cyan-400 to-cyan-600",
       githubUrl: "https://github.com/prakhar7788/subdomain-enum-tool",
       liveUrl: "",
@@ -39,6 +41,7 @@ export function Projects() {
       description:
         "Comprehensive online learning platform with interactive courses and community features.",
       tags: ["React", "Tailwind", "Motion"],
+      icon: GraduationCap,
       gradient: "from-pink-400 to-pink-600",
       githubUrl: "https://github.com/prakhar7788/edugap",
       liveUrl: "",
@@ -48,6 +51,7 @@ export function Projects() {
       description:
         "Fun and addictive clone of the Chrome Dino game, built with Python.",
       tags: ["pygame"],
+      icon: Gamepad2,
       gradient: "from-orange-400 to-orange-600",
       githubUrl: "https://github.com/prakhar7788/dinogame",
       liveUrl: "",
@@ -57,6 +61,7 @@ export function Projects() {
       description:
         "Comprehensive management system for organizing and tracking arcade games and tournaments.",
       tags: ["MySql-Connector for python"],
+      icon: Trophy,
       gradient: "from-green-400 to-green-600",
       githubUrl: "https://github.com/prakhar7788/arcade-management-system-",
       liveUrl: "",
@@ -92,6 +97,17 @@ export function Projects() {
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.3 }}
                 >
+                  {/* Project Icon */}
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <motion.div
+                      initial={{ scale: 0.8, opacity: 0.3 }}
+                      animate={{ scale: 1, opacity: 0.2 }}
+                      transition={{ duration: 0.5 }}
+                    >
+                      <project.icon size={80} className="text-white" />
+                    </motion.div>
+                  </div>
+
                   <motion.div
                     initial={{ opacity: 0 }}
                     whileHover={{ opacity: 1 }}
