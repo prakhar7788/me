@@ -29,7 +29,7 @@ export function Projects() {
     {
       title: "tool for Subdomain Enumeration",
       description:
-        "Beautiful weather application with interactive maps and detailed forecasts.",
+        "a shell sript for automating sub domain enumeration",
     tags: ["Shell Script", "GoBuster", "Amass"],
       icon: Shield,
       gradient: "from-cyan-400 to-cyan-600",
